@@ -13,6 +13,10 @@ export default defineConfig([
     languageOptions: { globals: globals.browser },
   },
   {
+    files: ["backend/**/*.{js,mjs,cjs}"],
+    languageOptions: { globals: globals.node },
+  },
+  {
     rules: {
       "no-unused-vars": "warn",
       "no-undef": "warn",
