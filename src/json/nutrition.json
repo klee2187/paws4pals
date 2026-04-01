@@ -1,0 +1,182 @@
+{
+  "dogs": {
+    "generalGuidelines": {
+      "protein": "18–25%",
+      "fat": "10–15%",
+      "carbs": "30–50%",
+      "waterIntake": "1 ounce of water per pound of body weight daily",
+      "feedingFrequency": {
+        "puppy": "3 meals per day",
+        "adult": "2 meals per day",
+        "senior": "2 smaller meals per day"
+      }
+    },
+    "safeFoods": ["Carrots", "Blueberries", "Pumpkin", "Cooked chicken", "Rice"],
+    "unsafeFoods": ["Chocolate", "Grapes", "Onions", "Xylitol", "Macadamia nuts"],
+    "lifeStageNutrition": {
+      "puppy": { "recommendedProtein": "22–32%", "recommendedFat": "10–25%" },
+      "adult": { "recommendedProtein": "18–25%", "recommendedFat": "10–15%" },
+      "senior": { "recommendedProtein": "18–23%", "recommendedFat": "8–12%" }
+    }
+  },
+
+  "cats": {
+    "generalGuidelines": {
+      "protein": "26–35%",
+      "fat": "9–15%",
+      "carbs": "Low",
+      "waterIntake": "Encourage hydration with wet food",
+      "feedingFrequency": {
+        "kitten": "3–4 meals per day",
+        "adult": "2 meals per day",
+        "senior": "2–3 smaller meals per day"
+      }
+    },
+    "safeFoods": ["Cooked chicken", "Pumpkin", "Peas", "Blueberries"],
+    "unsafeFoods": ["Onions", "Chocolate", "Alcohol", "Caffeine", "Raw fish"],
+    "lifeStageNutrition": {
+      "kitten": { "recommendedProtein": "30–40%", "recommendedFat": "15–25%" },
+      "adult": { "recommendedProtein": "26–35%", "recommendedFat": "9–15%" },
+      "senior": { "recommendedProtein": "26–30%", "recommendedFat": "8–12%" }
+    }
+  },
+
+  "birds": {
+    "generalGuidelines": {
+      "dietType": "Pellets, seeds, fresh vegetables, occasional fruit",
+      "waterIntake": "Fresh water daily",
+      "feedingFrequency": "Free-feed pellets; fresh foods daily"
+    },
+    "safeFoods": ["Spinach", "Carrots", "Apples (no seeds)", "Bell peppers", "Broccoli"],
+    "unsafeFoods": ["Avocado", "Chocolate", "Caffeine", "Alcohol", "Fruit seeds"],
+    "notes": "Birds require a balanced pellet diet; seed-only diets cause malnutrition."
+  },
+
+  "rabbits": {
+    "generalGuidelines": {
+      "dietType": "Hay-based diet with leafy greens and limited pellets",
+      "waterIntake": "Unlimited fresh water",
+      "feedingFrequency": "Hay available 24/7; greens daily"
+    },
+    "safeFoods": ["Romaine lettuce", "Parsley", "Carrots (small amounts)", "Hay"],
+    "unsafeFoods": ["Iceberg lettuce", "Chocolate", "Onions", "Garlic"],
+    "notes": "Hay should make up 80–90% of a rabbit’s diet."
+  },
+
+  "hamsters": {
+    "generalGuidelines": {
+      "dietType": "Commercial hamster mix, fresh vegetables, occasional fruit",
+      "waterIntake": "Small amounts daily",
+      "feedingFrequency": "1–2 tablespoons of food daily"
+    },
+    "safeFoods": ["Carrots", "Broccoli", "Apples (tiny pieces)", "Pumpkin seeds"],
+    "unsafeFoods": ["Chocolate", "Garlic", "Onions", "Citrus fruits"],
+    "notes": "Avoid sugary treats; hamsters are prone to diabetes."
+  },
+
+  "guineaPigs": {
+    "generalGuidelines": {
+      "dietType": "Hay, vitamin C–fortified pellets, leafy greens",
+      "waterIntake": "Fresh water daily",
+      "feedingFrequency": "Pellets + greens daily; hay always available"
+    },
+    "safeFoods": ["Bell peppers", "Kale", "Romaine lettuce", "Carrots"],
+    "unsafeFoods": ["Potatoes", "Onions", "Chocolate", "Iceberg lettuce"],
+    "notes": "Guinea pigs cannot produce vitamin C and need it supplemented daily."
+  },
+
+  "fish": {
+    "generalGuidelines": {
+      "dietType": "Species-specific flakes or pellets; occasional freeze-dried foods",
+      "waterQuality": "Clean, filtered water; regular tank maintenance",
+      "feedingFrequency": "Small amounts 1–2 times per day"
+    },
+    "safeFoods": ["Brine shrimp", "Bloodworms", "Algae wafers"],
+    "unsafeFoods": ["Bread", "Human snacks", "Anything seasoned"],
+    "notes": "Overfeeding is the #1 cause of fish illness."
+  },
+
+  "lizards": {
+    "generalGuidelines": {
+      "dietType": "Species-dependent: insects, leafy greens, or mixed omnivore diet",
+      "waterIntake": "Shallow dish; misting for humidity",
+      "feedingFrequency": {
+        "juvenile": "Daily",
+        "adult": "Every 1–2 days"
+      }
+    },
+    "safeFoods": ["Crickets", "Mealworms", "Collard greens", "Mustard greens", "Squash"],
+    "unsafeFoods": ["Fireflies", "Avocado", "Rhubarb", "Wild-caught insects"],
+    "notes": "Bearded dragons and iguanas have different dietary needs."
+  },
+
+  "snakes": {
+    "generalGuidelines": {
+      "dietType": "Whole prey (mice, rats) appropriate to snake size",
+      "waterIntake": "Fresh water bowl; some species require higher humidity",
+      "feedingFrequency": {
+        "juvenile": "Every 5–7 days",
+        "adult": "Every 10–14 days"
+      }
+    },
+    "safeFoods": ["Frozen-thawed rodents"],
+    "unsafeFoods": ["Live prey", "Fish for non-fish-eating species", "Insects"],
+    "notes": "Do not handle snakes for 24–48 hours after feeding."
+  },
+
+  "turtles": {
+    "generalGuidelines": {
+      "dietType": "Omnivore: leafy greens, aquatic pellets, occasional insects",
+      "waterIntake": "Aquatic species require clean, filtered water",
+      "feedingFrequency": {
+        "juvenile": "Daily",
+        "adult": "Every other day"
+      }
+    },
+    "safeFoods": ["Dandelion greens", "Aquatic pellets", "Earthworms", "Feeder fish"],
+    "unsafeFoods": ["Dairy", "Bread", "Processed meats", "Rhubarb"],
+    "notes": "UVB lighting is essential for shell and bone health."
+  },
+
+  "frogs": {
+    "generalGuidelines": {
+      "dietType": "Insectivore: crickets, worms, roaches",
+      "waterIntake": "Dechlorinated water only",
+      "feedingFrequency": {
+        "juvenile": "Daily",
+        "adult": "Every 2–3 days"
+      }
+    },
+    "safeFoods": ["Crickets", "Mealworms", "Waxworms", "Dubia roaches"],
+    "unsafeFoods": ["Wild insects", "Large prey", "Human food"],
+    "notes": "Humidity and temperature control are critical."
+  },
+
+  "geckos": {
+    "generalGuidelines": {
+      "dietType": "Insectivore or fruit/insect mix depending on species",
+      "waterIntake": "Shallow dish; misting for humidity",
+      "feedingFrequency": {
+        "juvenile": "Daily",
+        "adult": "Every 2–3 days"
+      }
+    },
+    "safeFoods": ["Crickets", "Mealworms", "Crested gecko diet", "Silkworms"],
+    "unsafeFoods": ["Fireflies", "Hard-shelled beetles", "Human food"],
+    "notes": "Crested geckos thrive on CGD; leopard geckos require insects only."
+  },
+
+  "axolotls": {
+    "generalGuidelines": {
+      "dietType": "Carnivore: worms, pellets, small fish",
+      "waterIntake": "Cool, clean, filtered water",
+      "feedingFrequency": {
+        "juvenile": "Daily",
+        "adult": "Every 2–3 days"
+      }
+    },
+    "safeFoods": ["Earthworms", "Bloodworms", "Axolotl pellets", "Brine shrimp"],
+    "unsafeFoods": ["Warm water", "Gravel", "Hard-shelled insects"],
+    "notes": "Axolotls require cool water (60–68°F) and low current."
+  }
+}

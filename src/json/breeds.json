@@ -1,0 +1,207 @@
+{
+  "dogs": [
+    {
+      "breed": "Golden Retriever",
+      "origin": "Scotland",
+      "history": "Originally bred in the 1800s as hunting companions skilled at retrieving waterfowl.",
+      "traits": ["Friendly", "Intelligent", "Loyal"],
+      "energyLevel": "High",
+      "groomingNeeds": "Moderate – regular brushing required",
+      "goodWithKids": true,
+      "image": "/images/breeds/dogs/golden_retriever.jpg"
+    },
+    {
+      "breed": "German Shepherd",
+      "origin": "Germany",
+      "history": "Developed for herding and guarding sheep; now widely used in police and service work.",
+      "traits": ["Confident", "Courageous", "Trainable"],
+      "energyLevel": "High",
+      "groomingNeeds": "Moderate – sheds heavily",
+      "goodWithKids": true,
+      "image": "/images/breeds/dogs/german_shepherd.jpg"
+    },
+    {
+      "breed": "Beagle",
+      "origin": "England",
+      "history": "Bred as scent hounds for tracking rabbits and small game.",
+      "traits": ["Curious", "Friendly", "Energetic"],
+      "energyLevel": "Medium",
+      "groomingNeeds": "Low",
+      "goodWithKids": true,
+      "image": "/images/breeds/dogs/beagle.jpg"
+    },
+    {
+      "breed": "Labrador Retriever",
+      "origin": "Canada",
+      "history": "Originally used by fishermen to retrieve nets and fish; now a top family dog.",
+      "traits": ["Outgoing", "Gentle", "Smart"],
+      "energyLevel": "High",
+      "groomingNeeds": "Low–Moderate",
+      "goodWithKids": true,
+      "image": "/images/breeds/dogs/labrador.jpg"
+    },
+    {
+      "breed": "Poodle",
+      "origin": "Germany/France",
+      "history": "Originally water retrievers; now known for intelligence and hypoallergenic coats.",
+      "traits": ["Intelligent", "Active", "Proud"],
+      "energyLevel": "Medium–High",
+      "groomingNeeds": "High – regular grooming required",
+      "goodWithKids": true,
+      "image": "/images/breeds/dogs/poodle.jpg"
+    },
+    {
+      "breed": "Bulldog",
+      "origin": "England",
+      "history": "Once used for bull-baiting; now a gentle, affectionate companion breed.",
+      "traits": ["Calm", "Courageous", "Affectionate"],
+      "energyLevel": "Low",
+      "groomingNeeds": "Low",
+      "goodWithKids": true,
+      "image": "/images/breeds/dogs/bulldog.jpg"
+    },
+    {
+      "breed": "Boxer",
+      "origin": "Germany",
+      "history": "Developed as working dogs used for guarding and messenger duties.",
+      "traits": ["Energetic", "Playful", "Loyal"],
+      "energyLevel": "High",
+      "groomingNeeds": "Low",
+      "goodWithKids": true,
+      "image": "/images/breeds/dogs/boxer.jpg"
+    },
+    {
+      "breed": "Siberian Husky",
+      "origin": "Siberia",
+      "history": "Bred by the Chukchi people as endurance sled dogs.",
+      "traits": ["Independent", "Friendly", "Energetic"],
+      "energyLevel": "High",
+      "groomingNeeds": "High – heavy seasonal shedding",
+      "goodWithKids": true,
+      "image": "/images/breeds/dogs/husky.jpg"
+    },
+    {
+      "breed": "Corgi",
+      "origin": "Wales",
+      "history": "Originally herding dogs known for agility and intelligence.",
+      "traits": ["Alert", "Playful", "Affectionate"],
+      "energyLevel": "Medium",
+      "groomingNeeds": "Moderate",
+      "goodWithKids": true,
+      "image": "/images/breeds/dogs/corgi.jpg"
+    },
+    {
+      "breed": "Rottweiler",
+      "origin": "Germany",
+      "history": "Descended from Roman drover dogs used to herd cattle and guard property.",
+      "traits": ["Confident", "Protective", "Loyal"],
+      "energyLevel": "Medium",
+      "groomingNeeds": "Low",
+      "goodWithKids": true,
+      "image": "/images/breeds/dogs/rottweiler.jpg"
+    }
+  ],
+
+  "cats": [
+    {
+      "breed": "Siamese",
+      "origin": "Thailand",
+      "history": "One of the oldest Asian cat breeds, once kept by royalty.",
+      "traits": ["Vocal", "Affectionate", "Social"],
+      "energyLevel": "High",
+      "groomingNeeds": "Low",
+      "goodWithKids": true,
+      "image": "/images/breeds/cats/siamese.jpg"
+    },
+    {
+      "breed": "Maine Coon",
+      "origin": "United States",
+      "history": "Believed to have developed naturally in New England; known as gentle giants.",
+      "traits": ["Friendly", "Gentle", "Playful"],
+      "energyLevel": "Medium",
+      "groomingNeeds": "High – long coat",
+      "goodWithKids": true,
+      "image": "/images/breeds/cats/maine_coon.jpg"
+    },
+    {
+      "breed": "Persian",
+      "origin": "Iran",
+      "history": "One of the oldest cat breeds, prized for their luxurious coats.",
+      "traits": ["Calm", "Sweet", "Quiet"],
+      "energyLevel": "Low",
+      "groomingNeeds": "High",
+      "goodWithKids": true,
+      "image": "/images/breeds/cats/persian.jpg"
+    },
+    {
+      "breed": "Bengal",
+      "origin": "United States",
+      "history": "Created by crossing domestic cats with Asian leopard cats.",
+      "traits": ["Active", "Curious", "Vocal"],
+      "energyLevel": "High",
+      "groomingNeeds": "Low",
+      "goodWithKids": false,
+      "image": "/images/breeds/cats/bengal.jpg"
+    },
+    {
+      "breed": "Ragdoll",
+      "origin": "United States",
+      "history": "Developed in the 1960s for their docile, floppy temperament.",
+      "traits": ["Gentle", "Affectionate", "Calm"],
+      "energyLevel": "Low–Medium",
+      "groomingNeeds": "Moderate",
+      "goodWithKids": true,
+      "image": "/images/breeds/cats/ragdoll.jpg"
+    },
+    {
+      "breed": "Sphynx",
+      "origin": "Canada",
+      "history": "A naturally occurring hairless mutation developed into a breed in the 1960s.",
+      "traits": ["Social", "Playful", "Affectionate"],
+      "energyLevel": "Medium",
+      "groomingNeeds": "High – skin care required",
+      "goodWithKids": true,
+      "image": "/images/breeds/cats/sphynx.jpg"
+    },
+    {
+      "breed": "British Shorthair",
+      "origin": "United Kingdom",
+      "history": "Descended from Roman cats brought to Britain; known for their plush coats.",
+      "traits": ["Calm", "Independent", "Easygoing"],
+      "energyLevel": "Low–Medium",
+      "groomingNeeds": "Low",
+      "goodWithKids": true,
+      "image": "/images/breeds/cats/british_shorthair.jpg"
+    },
+    {
+      "breed": "Russian Blue",
+      "origin": "Russia",
+      "history": "Believed to have originated in the port city of Arkhangelsk.",
+      "traits": ["Quiet", "Gentle", "Intelligent"],
+      "energyLevel": "Medium",
+      "groomingNeeds": "Low",
+      "goodWithKids": true,
+      "image": "/images/breeds/cats/russian_blue.jpg"
+    },
+    {
+      "breed": "American Shorthair",
+      "origin": "United States",
+      "history": "Descended from European cats brought by settlers to protect food stores.",
+      "traits": ["Adaptable", "Friendly", "Easygoing"],
+      "energyLevel": "Medium",
+      "groomingNeeds": "Low",
+      "goodWithKids": true,
+      "image": "/images/breeds/cats/american_shorthair.jpg"
+    },
+    {
+      "breed": "Scottish Fold",
+      "origin": "Scotland",
+      "history": "Known for their unique folded ears caused by a natural mutation.",
+      "traits": ["Sweet", "Quiet", "Affectionate"],
+      "energyLevel": "Medium",
+      "groomingNeeds": "Low–Moderate",
+      "goodWithKids": true,
+      "image": "/images/breeds/cats/scottish_fold.jpg"
+    }
+  ]
+}
