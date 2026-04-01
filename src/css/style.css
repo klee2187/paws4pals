@@ -1,3 +1,46 @@
-body {
-    
+/* CSS Variables for consistent theming across the site */
+
+:root {
+  --font-body: 'Roboto', Helvetica, sans-serif;
+  --font-headline: 'Winky Sans', sans-serif;
+  /* colors */
+  --primary-color: #0051a7;
+  --secondary-color: #0089a7;
+  --tertiary-color: #00a5a7;
+  --light-grey: #d0d0d0;
+  --dark-grey: #303030;
+
+  /* sizes */
+  --font-base: 18px;
+  --small-font: 0.8em;
+  --large-font: 1.2em;
 }
+
+/* Base header styles */
+
+.logo {
+    width: 13rem;
+}
+
+a {
+    color: var(--dark-grey);
+    font-family: var(--font-body);
+    list-style: none;
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+h1{
+    font-size: 2.1rem;
+    color: var(--primary-color);
+    font-family: var(--font-headline);
+}
+
+p {
+    font-size: var(--font-base);
+    color: var(--dark-grey);
+    font-family: var(--font-body);
+}
+
+
+

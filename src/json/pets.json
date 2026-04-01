@@ -15,7 +15,7 @@
     "location": "Salt Lake City Animal Shelter",
     "breeder": null,
     "medical": { "vaccinated": true, "neutered": true },
-    "image": "src/images/zachtleven-dog-9413394_1920.webp"
+    "image": "src/images/pets/zachtleven-dog-9413394_1920.webp"
   },
   {
     "id": 2,
@@ -33,7 +33,7 @@
     "location": "Paws Rescue Center",
     "breeder": null,
     "medical": { "vaccinated": true, "spayed": true },
-    "image": "src/images/liliy2025-cat-882049_1920.webp"
+    "image": "src/images/pets/liliy2025-cat-882049_1920.webp"
   },
   {
     "id": 3,
@@ -51,7 +51,7 @@
     "location": "Ogden Humane Society",
     "breeder": "Mountain Ridge Boxers",
     "medical": { "vaccinated": true, "neutered": true },
-    "image": "src/images/ruebe237-boxer-2752260_1920.webp"
+    "image": "src/images/pets/ruebe237-boxer-2752260_1920.webp"
   },
   {
     "id": 4,
@@ -69,7 +69,7 @@
     "location": "Cache Valley Pet Haven",
     "breeder": null,
     "medical": { "vaccinated": true, "spayed": true },
-    "image": "src/images/miezekieze-cat-7263838_1920.webp"
+    "image": "src/images/pets/miezekieze-cat-7263838_1920.webp"
   },
   {
     "id": 5,
@@ -87,7 +87,7 @@
     "location": "Logan Animal Shelter",
     "breeder": null,
     "medical": { "vaccinated": true, "neutered": false },
-    "image": "src/images/ntripke-beagle-2699030_1920.webp"
+    "image": "src/images/pets/ntripke-beagle-2699030_1920.webp"
   },
   {
     "id": 6,
@@ -105,7 +105,7 @@
     "location": "Paws Rescue Center",
     "breeder": null,
     "medical": { "vaccinated": true, "spayed": true },
-    "image": "src/images/pikabum-cat-649164_1920.webp"
+    "image": "src/images/pets/pikabum-cat-649164_1920.webp"
   },
   {
     "id": 7,
@@ -123,7 +123,7 @@
     "location": "Salt Lake City Animal Shelter",
     "breeder": "Guardian Shepherds",
     "medical": { "vaccinated": true, "neutered": true },
-    "image": "src/images/bieniu94-german-shepherd-3101439_1920.webp"
+    "image": "src/images/pets/bieniu94-german-shepherd-3101439_1920.webp"
   },
   {
     "id": 8,
@@ -141,7 +141,7 @@
     "location": "Ogden Humane Society",
     "breeder": null,
     "medical": { "vaccinated": true, "spayed": true },
-    "image": "src/images/kapa65-cat-1940489_1920.webp"
+    "image": "src/images/pets/kapa65-cat-1940489_1920.webp"
   },
   {
     "id": 9,
@@ -159,7 +159,7 @@
     "location": "Cache Valley Pet Haven",
     "breeder": "Blue Sky Aussies",
     "medical": { "vaccinated": true, "neutered": true },
-    "image": "src/images/liggraphy-australian-shepherd-7176981_1920.webp"
+    "image": "src/images/pets/liggraphy-australian-shepherd-7176981_1920.webp"
   },
   {
     "id": 10,
@@ -177,7 +177,7 @@
     "location": "Logan Animal Shelter",
     "breeder": "SoftCloud Ragdolls",
     "medical": { "vaccinated": true, "spayed": true },
-    "image": "src/images/diak83-cat-4936769_1920.webp"
+    "image": "src/images/pets/diak83-cat-4936769_1920.webp"
   },
   {
     "id": 11,
@@ -195,7 +195,7 @@
     "location": "Salt Lake City Animal Shelter",
     "breeder": null,
     "medical": { "vaccinated": true, "neutered": true },
-    "image": "src/images/rebeccaspictures-labrador-5762115_1920.webp"
+    "image": "src/images/pets/rebeccaspictures-labrador-5762115_1920.webp"
   },
   {
     "id": 12,
@@ -213,7 +213,7 @@
     "location": "Paws Rescue Center",
     "breeder": null,
     "medical": { "vaccinated": true, "spayed": true },
-    "image": "src/images/vs_star-cat-4122355_1920.webp"
+    "image": "src/images/pets/vs_star-cat-4122355_1920.webp"
   },
   {
     "id": 13,
@@ -231,7 +231,7 @@
     "location": "Ogden Humane Society",
     "breeder": "Happy Tails Corgis",
     "medical": { "vaccinated": true, "neutered": true },
-    "image": "src/images/molnarszabolcserdely-animal-6889550_1920.webp"
+    "image": "src/images/pets/molnarszabolcserdely-animal-6889550_1920.webp"
   },
   {
     "id": 14,
@@ -249,7 +249,7 @@
     "location": "Cache Valley Pet Haven",
     "breeder": null,
     "medical": { "vaccinated": true, "spayed": true },
-    "image": "src/images/leoneannabella-cat-2898573_1920.webp"
+    "image": "src/images/pets/leoneannabella-cat-2898573_1920.webp"
   },
   {
     "id": 15,
@@ -267,7 +267,7 @@
     "location": "Logan Animal Shelter",
     "breeder": "Northern Star Huskies",
     "medical": { "vaccinated": true, "neutered": true },
-    "image": "src/images/sonjalindberg-husky-2443664_1920.webp"
+    "image": "src/images/pets/sonjalindberg-husky-2443664_1920.webp"
   },
   {
     "id": 16,
@@ -285,7 +285,7 @@
     "location": "Paws Rescue Center",
     "breeder": "Royal Persians",
     "medical": { "vaccinated": true, "spayed": true },
-    "image": "src/images/akbarnemati-persian-cat-7351943_1920.webp"
+    "image": "src/images/pets/akbarnemati-persian-cat-7351943_1920.webp"
   },
   {
     "id": 17,
@@ -303,7 +303,7 @@
     "location": "Ogden Humane Society",
     "breeder": "Swift Creek Collies",
     "medical": { "vaccinated": true, "neutered": true },
-    "image": "src/images/mandarinblues-border-collie-3753041_1920.webp"
+    "image": "src/images/pets/mandarinblues-border-collie-3753041_1920.webp"
   },
   {
     "id": 18,
@@ -321,7 +321,7 @@
     "location": "Salt Lake City Animal Shelter",
     "breeder": null,
     "medical": { "vaccinated": true, "neutered": true },
-    "image": "src/images/meng-xiang-jia-cat-5830643_1920.webp"
+    "image": "src/images/pets/meng-xiang-jia-cat-5830643_1920.webp"
   },
   {
     "id": 19,
@@ -339,7 +339,7 @@
     "location": "Cache Valley Pet Haven",
     "breeder": "Royal Cavaliers",
     "medical": { "vaccinated": true, "spayed": true },
-    "image": "src/images/sylwiaaptacy-dog-806883_1920.webp"
+    "image": "src/images/pets/sylwiaaptacy-dog-806883_1920.webp"
   },
   {
     "id": 20,
@@ -357,7 +357,7 @@
     "location": "Logan Animal Shelter",
     "breeder": "WildSpots Bengals",
     "medical": { "vaccinated": true, "neutered": true },
-    "image": "src/images/janinewilkins-bengal-3665662_1920.webp"
+    "image": "src/images/pets/janinewilkins-bengal-3665662_1920.webp"
   }
 ]
 
