@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paws4Pals | Adoption Application</title>
+  <link rel="stylesheet" href="/css/style.css" />
+  <script type="module" src="/js/main.js"></script>
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <main class="page-container">
+        <h2 class="page-title">Pet Adoption Application</h2>
+        <p class="page-subtitle">Please fill out the form below to apply for pet adoption.</p>
+
+        <form id="application-form" class="form-card">
+            <div class="form-section">
+                <h3 class="form-section">Pet Information</h3>
+
+                <div class="form-row">
+                    <label for="petBreed">Pet Breed:</label>
+                    <input type="text" id="petBreed" name="petBreed" readonly />
+                </div>
+            </div>
+
+            <div class="form-section">
+                <h3 class="form-section">Personal Information</h3>
+
+                <div class="form-row">
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" name="fullName" required />
+                </div>
+
+                <div class="form-row">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required />
+                </div>
+
+                <div class="form-row">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required />
+                </div>
+
+                <div class="form-row">
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" name="address" required />
+                </div>
+            </div>
+            
+            <div class="form-section">
+                <h3 class="form-section">Home and Lifestyle</h3>
+
+                <div class="form-row">
+                    <label for="housing">Housing Type:</label>
+                    <select id="housing" name="housing" required>
+                        <option value="">Select</option>
+                        <option value="house">House</option>
+                        <option value="apartment">Apartment</option>
+                        <option value="condo">Condo</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <label for="experience">Previous Pet Experience:</label>
+                    <textarea id="experience" name="experience" rows="4" required></textarea>
+                </div>
+
+                <div class="form-row">
+                    <label for="reason">Why do you want to adopt this pet?</label>
+                    <textarea id="reason" name="reason" rows="4" required></textarea>
+                </div>
+            </div>
+        </form>
+    </main>
+
+    <div id="footer"></div>
+    
+</body>

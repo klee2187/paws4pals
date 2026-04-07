@@ -42,5 +42,48 @@ p {
     font-family: var(--font-body);
 }
 
+/* navigation styles */
 
+#menu-toggle {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: var(--primary-color);
+}
 
+#menu {
+    display: none;
+}
+
+#menu.open {
+    display: block;
+}
+
+.hidden {
+    display: none !important;
+}
+
+li {
+    margin: 0.5rem 0;
+    list-style-type: none;
+}
+
+/* hero section styles */
+.hero {
+    background-color: var(--light-grey);
+    padding: 2rem;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
