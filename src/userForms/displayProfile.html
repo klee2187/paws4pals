@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paws4Pals | Your Profile</title>
+  <link rel="stylesheet" href="/css/style.css" />
+
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <main class="page-container">
+        <h2 class="page-title">Your Profile</h2>
+        <p class="page-subtitle">Manage your profile information.</p>
+        <div id="displayProfileCard" class="display-profile-card">
+            <div class="display-profile-avatar">
+                <img id="displayProfileAvatar" src="/images/avatars/default-avatar.png" alt="User Avatar" />
+            </div>
+            <div class="profile-info">
+                <p><strong>First Name:</strong> <span id="displayProfileFirstName"></span></p>
+                <p><strong>Last Name:</strong> <span id="displayProfileLastName"></span></p>
+                <p><strong>Email:</strong> <span id="displayProfileEmail"></span></p>
+                <p><strong>Phone:</strong> <span id="displayProfilePhone"></span></p>
+                <p><strong>Address:</strong> <span id="displayProfileAddress"></span></p>
+            </div>
+        </div>
+        <button id="editProfileBtn" class="btn" onclick="window.location.href='/userForms/editProfile.html'">Edit Profile</button>
+    </main>
+
+    <div id="footer"></div>
+
+    <script type="module" src="/js/main.js"></script>
+    <script type="module" src="/js/displayProfile.js"></script>
+
+</body>
