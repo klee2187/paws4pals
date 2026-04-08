@@ -1,4 +1,4 @@
-import { getLocalStorage, setLocalStorage, qs, loadHeaderFooter } from "./utils.mjs";
+import { getLocalStorage, setLocalStorage, qs } from "./utils.mjs";
 
 
 
@@ -23,29 +23,36 @@ export const avatars = [
     "/images/avatars/18.png",
 ];
 
-const user = getLocalStorage("user");
-if(!user) {
-    window.location.href = "/userForms/login.html";
-}
-qs("#firstName").value = user.firstName || "";
-qs("#lastName").value = user.lastName || "";
-qs("#email").value = user.email || "";
-qs("#phone").value = user.phone || "";
-qs("#address").value = user.address || "";
-qs("#avatar").value = user.avatar || "";
-renderAvatarGrid(user.avatar);
-qs("#edit-profile-form").addEventListener("submit", (e) => {
-    e.preventDefault();
-    const updatedUser = {
-        firstName: qs("#firstName").value,
-        lastName: qs("#lastName").value,
-        email: qs("#email").value,
-        phone: qs("#phone").value,
-        address: qs("#address").value,
-        avatar: qs("#avatar").value
-    };
-    setLocalStorage("user", updatedUser);
-    window.location.href = "/userForms/displayProfile.html";
+document.addEventListener("DOMContentLoaded", () => {
+    const user = getLocalStorage("user");
+    if(!user) {
+        window.location.href = "/userForms/login.html";
+        return;
+    }
+    qs("#firstName").value = user.firstName || "";
+    qs("#lastName").value = user.lastName || "";
+    qs("#email").value = user.email || "";
+    qs("#phone").value = user.phone || "";
+    qs("#address").value = user.address || "";
+    qs("#avatar").value = user.avatar || "";
+
+    renderAvatarGrid(user.avatar);
+
+    qs("#edit-profile-form").addEventListener("submit", (e) => {
+        e.preventDefault();
+
+        const updatedUser = {
+            firstName: qs("#firstName").value,
+            lastName: qs("#lastName").value,
+            email: qs("#email").value,
+            phone: qs("#phone").value,
+            address: qs("#address").value,
+            avatar: qs("#avatar").value
+        };
+        
+        setLocalStorage("user", updatedUser);
+        window.location.href = "/userForms/displayProfile.html";
+    });
 });
 
 
