@@ -14,7 +14,7 @@ async function loadPets() {
 }
 
 function renderPets(pets) {
-    const container = document.querySelector("#petGallery");
+    const container = document.querySelector("#petsGallery");
     container.innerHTML = "";
     pets.forEach(pet => {
         const petCard = document.createElement("div");
@@ -26,12 +26,10 @@ function renderPets(pets) {
                 <h3>${pet.name}</h3>
                 <p>${pet.breed}</p>
                 <p>${pet.age} years old</p>
-                <button class="btn" onclick="window.location.href='/petDetails.html?id=${pet.id}'">View Details</button>
-                    View Details
-                </button>
+                <button class="btn" onclick="window.location.href='/pets/details.html?id=${pet.id}'">View Details</button>
             </div>
         `;
-        
+
         container.appendChild(petCard);
     });
 

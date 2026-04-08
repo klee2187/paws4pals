@@ -16,6 +16,11 @@ function copyStaticAssets() {
         resolve(__dirname, "dist/images"),
         { recursive: true }
       );
+      fs.cpSync(
+        resolve(__dirname, "src/json"),
+        resolve(__dirname, "dist/json"),
+        { recursive: true }
+      );
     },
   };
 }
