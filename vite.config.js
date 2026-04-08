@@ -2,13 +2,18 @@ import { resolve } from "path";
 import { defineConfig } from "vite";
 import fs from "fs";
 
-function copyPartials() {
+function copyStaticAssets() {
   return {
-    name: "copy-partials",
+    name: "copy-static-assets",
     closeBundle() {
       fs.cpSync(
         resolve(__dirname, "src/partials"),
         resolve(__dirname, "dist/partials"),
+        { recursive: true }
+      );
+      fs.cpSync(
+        resolve(__dirname, "src/images"),
+        resolve(__dirname, "dist/images"),
         { recursive: true }
       );
     },
@@ -17,7 +22,7 @@ function copyPartials() {
 
 export default defineConfig({
   root: "src/",
-  plugins: [copyPartials()],
+  plugins: [copyStaticAssets()],
   build: {
     outDir: "../dist",
     rollupOptions: {
