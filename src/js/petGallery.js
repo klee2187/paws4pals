@@ -1,6 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
-    loadPets();
-});
+loadPets();
 
 async function loadPets() {
     try {
@@ -14,7 +12,7 @@ async function loadPets() {
 }
 
 function renderPets(pets) {
-    const container = document.querySelector("#petsGallery");
+    const container = document.querySelector("#petGallery");
     container.innerHTML = "";
     pets.forEach(pet => {
         const petCard = document.createElement("div");
