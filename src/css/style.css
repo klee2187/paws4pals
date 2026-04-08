@@ -155,11 +155,17 @@ p.footer-text {
 
 /* Gallery styles */
 
-.pet-gallery{
+.pets-gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: 1fr;
     gap: 1rem;
     margin-top: 2rem;
+}
+
+@media (min-width: 500px) {
+    .pets-gallery {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    }
 }
 
 .pet-card {
@@ -181,7 +187,7 @@ p.footer-text {
 
 .pet-card img {
     width: 100%;
-    height: 150px;
+    height: 100%;
     object-fit: cover;
 }
 
