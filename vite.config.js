@@ -28,7 +28,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, "src/index.html"),
-        contact: resolve(__dirname, "src/contact/contact.html"),
+        contact: resolve(__dirname, "src/userForms/contact.html"),
         favorites: resolve(__dirname, "src/favorites/favorites.html"),
         breeds: resolve(__dirname, "src/informational/breeds.html"),
         nutrition: resolve(__dirname, "src/informational/nutrition.html"),
