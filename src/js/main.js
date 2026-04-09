@@ -1,4 +1,8 @@
-import { getLocalStorage, qs, loadHeaderFooter } from "./utils.mjs";
+import { 
+    getLocalStorage, 
+    qs, 
+    loadHeaderFooter 
+} from "./utils.mjs";
 
 loadHeaderFooter().then(() => {
     const toggle = qs("#nav-menu-toggle");
@@ -10,9 +14,9 @@ loadHeaderFooter().then(() => {
     const authOnlyLinks = document.querySelectorAll(".nav-auth-only");
 
     function updateAuthLinks() {
-        const user = getLocalStorage("user");
+        const session = getLocalStorage("logged-in-user");
 
-        if (user) {
+        if (session) {
             profileLink.classList.remove("hidden");
             logoutLink.classList.remove("hidden");
             loginLink.classList.add("hidden");
@@ -35,7 +39,7 @@ loadHeaderFooter().then(() => {
 
     logoutLink.addEventListener("click", (e) => {
         e.preventDefault();
-        localStorage.removeItem("user");
+        localStorage.removeItem("logged-in-user");
         window.location.href = "/";
     });
 });

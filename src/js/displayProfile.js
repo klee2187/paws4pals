@@ -1,21 +1,26 @@
-import { getLocalStorage, qs } from "./utils.mjs";
+import { 
+    getLocalStorage, 
+    qs 
+} from "./utils.mjs";
 
-document.addEventListener("DOMContentLoaded", () => {
-    const user = getLocalStorage("user");
+const session = getLocalStorage("logged-in-user");
 
-    if (!user) {
+if (!session) {
+    window.location.href = "/userForms/login.html";
+} else {
+    const profile = getLocalStorage("user-profile");
+
+    if (!profile) {
         window.location.href = "/userForms/login.html";
-        return;
+    } else {
+        qs("#displayProfileFirstName").textContent = profile.firstName || "";
+        qs("#displayProfileLastName").textContent = profile.lastName || "";
+        qs("#displayProfileEmail").textContent = profile.email || "";
+        qs("#displayProfilePhone").textContent = profile.phone || "";
+        qs("#displayProfileAddress").textContent = profile.address || "";
 
-    }
-
-        qs("#displayProfileFirstName").textContent = user.firstName || "";
-        qs("#displayProfileLastName").textContent = user.lastName || "";
-        qs("#displayProfileEmail").textContent = user.email || "";
-        qs("#displayProfilePhone").textContent = user.phone || "";
-        qs("#displayProfileAddress").textContent = user.address || "";
-
-        if (user.avatar) {
-            qs("#displayProfileAvatar").src = user.avatar;
+        if (profile.avatar) {
+            qs("#displayProfileAvatar").src = profile.avatar;
         }
-});
+    }
+}

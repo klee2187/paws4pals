@@ -1,6 +1,8 @@
-import { getLocalStorage, setLocalStorage, qs } from "./utils.mjs";
-
-
+import { 
+    getLocalStorage, 
+    setLocalStorage, 
+    qs 
+} from "./utils.mjs";
 
 export const avatars = [
     "/images/avatars/default-avatar.png",
@@ -23,25 +25,30 @@ export const avatars = [
     "/images/avatars/18.png",
 ];
 
-document.addEventListener("DOMContentLoaded", () => {
-    const user = getLocalStorage("user");
-    if(!user) {
-        window.location.href = "/userForms/login.html";
-        return;
-    }
-    qs("#firstName").value = user.firstName || "";
-    qs("#lastName").value = user.lastName || "";
-    qs("#email").value = user.email || "";
-    qs("#phone").value = user.phone || "";
-    qs("#address").value = user.address || "";
-    qs("#avatar").value = user.avatar || "";
+const session = getLocalStorage("logged-in-user");
 
-    renderAvatarGrid(user.avatar);
+if (!session) {
+    window.location.href = "/userForms/login.html";
+} else {
+    const profile = getLocalStorage("user-profile");
+
+    if (!profile) {
+        window.location.href = "/userForms/login.html";
+    } else {
+    qs("#firstName").value = profile.firstName || "";
+    qs("#lastName").value = profile.lastName || "";
+    qs("#email").value = profile.email || "";
+    qs("#phone").value = profile.phone || "";
+    qs("#address").value = profile.address || "";
+    qs("#avatar").value = profile.avatar || "";
+
+    renderAvatarGrid(profile.avatar);
 
     qs("#edit-profile-form").addEventListener("submit", (e) => {
         e.preventDefault();
 
-        const updatedUser = {
+        const updatedProfile = {
+            ...profile,
             firstName: qs("#firstName").value,
             lastName: qs("#lastName").value,
             email: qs("#email").value,
@@ -50,11 +57,11 @@ document.addEventListener("DOMContentLoaded", () => {
             avatar: qs("#avatar").value
         };
         
-        setLocalStorage("user", updatedUser);
+        setLocalStorage("user-profile", updatedProfile);
         window.location.href = "/userForms/displayProfile.html";
     });
-});
-
+  }
+}
 
 function renderAvatarGrid(selectedAvatar) {
     const grid = qs("#editAvatarGrid");

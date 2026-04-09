@@ -1,4 +1,8 @@
-import { qs, getLocalStorage, setLocalStorage } from "./utils.mjs";
+import { 
+    qs, 
+    getLocalStorage, 
+    setLocalStorage, 
+} from "./utils.mjs";
 
 const form = qs("#login-form");
 
@@ -7,9 +11,24 @@ form.addEventListener("submit", (e) => {
 
     const email = qs("#email").value;
 
-    // Preserve any existing user data (e.g. from registration), update email
-    const existing = getLocalStorage("user") || {};
-    setLocalStorage("user", { ...existing, email });
+    let profile = getLocalStorage("user-profile");
+
+    if (!profile) {
+        profile = {
+            email,
+            avatar: "",
+            favorites: [],
+            firstName: "",
+            lastName: "",
+            phone: "",
+            address: ""
+        };
+    } else {
+        profile.email = email;
+    }   
+
+    setLocalStorage("user-profile", profile);
+    setLocalStorage("logged-in-user", { email });
 
     window.location.href = "/userForms/displayProfile.html";
 });

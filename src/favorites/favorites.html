@@ -15,7 +15,22 @@
         <h2 class="page-title">Your Favorites</h2>
         <p class="page-subtitle">View and manage your favorite pets.</p>
 
-        <div id="favoritesList" class="favorites-list"></div>
+        <template id="favoriteCardTemplate">
+            <div class="favorite-card">
+                <img src="" alt="Pet Image" class="favorite-image" />
+                <h3 class="favorite-name"></h3>
+                <p class="favorite-breed"></p>
+
+                <a class="details-btn" href="#">View Details</a>
+
+                <button class="favorite-toggle" data-id="">
+                    <span class="heart-icon filled">♥</span>
+                </button>
+            </div>
+        </template>
+
+        <div id="favoritesList" class="favorites-grid"></div>
+        
     </main>
     <div id="footer"></div>
     <script type="module" src="/js/main.js"></script>   

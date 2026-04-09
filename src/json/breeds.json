@@ -8,7 +8,7 @@
       "energyLevel": "High",
       "groomingNeeds": "Moderate – regular brushing required",
       "goodWithKids": true,
-      "image": "/images/breeds/dogs/golden_retriever.jpg"
+      "image": "/images/breeds/golden-retriever.jpg"
     },
     {
       "breed": "German Shepherd",
@@ -18,7 +18,7 @@
       "energyLevel": "High",
       "groomingNeeds": "Moderate – sheds heavily",
       "goodWithKids": true,
-      "image": "/images/breeds/dogs/german_shepherd.jpg"
+      "image": "/images/breeds/german-shepherd.jpg"
     },
     {
       "breed": "Beagle",
@@ -28,7 +28,7 @@
       "energyLevel": "Medium",
       "groomingNeeds": "Low",
       "goodWithKids": true,
-      "image": "/images/breeds/dogs/beagle.jpg"
+      "image": "/images/breeds/beagle.jpg"
     },
     {
       "breed": "Labrador Retriever",
@@ -38,7 +38,7 @@
       "energyLevel": "High",
       "groomingNeeds": "Low–Moderate",
       "goodWithKids": true,
-      "image": "/images/breeds/dogs/labrador.jpg"
+      "image": "/images/breeds/lab.jpg"
     },
     {
       "breed": "Poodle",
@@ -48,7 +48,7 @@
       "energyLevel": "Medium–High",
       "groomingNeeds": "High – regular grooming required",
       "goodWithKids": true,
-      "image": "/images/breeds/dogs/poodle.jpg"
+      "image": "/images/breeds/poodle.jpg"
     },
     {
       "breed": "Bulldog",
@@ -58,7 +58,7 @@
       "energyLevel": "Low",
       "groomingNeeds": "Low",
       "goodWithKids": true,
-      "image": "/images/breeds/dogs/bulldog.jpg"
+      "image": "/images/breeds/bulldog.jpg"
     },
     {
       "breed": "Boxer",
@@ -68,7 +68,7 @@
       "energyLevel": "High",
       "groomingNeeds": "Low",
       "goodWithKids": true,
-      "image": "/images/breeds/dogs/boxer.jpg"
+      "image": "/images/breeds/boxer.jpg"
     },
     {
       "breed": "Siberian Husky",
@@ -78,7 +78,7 @@
       "energyLevel": "High",
       "groomingNeeds": "High – heavy seasonal shedding",
       "goodWithKids": true,
-      "image": "/images/breeds/dogs/husky.jpg"
+      "image": "/images/breeds/husky.jpg"
     },
     {
       "breed": "Corgi",
@@ -88,7 +88,7 @@
       "energyLevel": "Medium",
       "groomingNeeds": "Moderate",
       "goodWithKids": true,
-      "image": "/images/breeds/dogs/corgi.jpg"
+      "image": "/images/breeds/corgi.jpg"
     },
     {
       "breed": "Rottweiler",
@@ -98,7 +98,7 @@
       "energyLevel": "Medium",
       "groomingNeeds": "Low",
       "goodWithKids": true,
-      "image": "/images/breeds/dogs/rottweiler.jpg"
+      "image": "/images/breeds/rottweiler.jpg"
     }
   ],
 
@@ -111,7 +111,7 @@
       "energyLevel": "High",
       "groomingNeeds": "Low",
       "goodWithKids": true,
-      "image": "/images/breeds/cats/siamese.jpg"
+      "image": "/images/breeds/siamese.jpg"
     },
     {
       "breed": "Maine Coon",
@@ -121,7 +121,7 @@
       "energyLevel": "Medium",
       "groomingNeeds": "High – long coat",
       "goodWithKids": true,
-      "image": "/images/breeds/cats/maine_coon.jpg"
+      "image": "/images/breeds/maine-coon.jpg"
     },
     {
       "breed": "Persian",
@@ -131,7 +131,7 @@
       "energyLevel": "Low",
       "groomingNeeds": "High",
       "goodWithKids": true,
-      "image": "/images/breeds/cats/persian.jpg"
+      "image": "/images/breeds/persian.jpg"
     },
     {
       "breed": "Bengal",
@@ -141,7 +141,7 @@
       "energyLevel": "High",
       "groomingNeeds": "Low",
       "goodWithKids": false,
-      "image": "/images/breeds/cats/bengal.jpg"
+      "image": "/images/breeds/bengal.jpg"
     },
     {
       "breed": "Ragdoll",
@@ -151,7 +151,7 @@
       "energyLevel": "Low–Medium",
       "groomingNeeds": "Moderate",
       "goodWithKids": true,
-      "image": "/images/breeds/cats/ragdoll.jpg"
+      "image": "/images/breeds/ragdoll.jpg"
     },
     {
       "breed": "Sphynx",
@@ -161,7 +161,7 @@
       "energyLevel": "Medium",
       "groomingNeeds": "High – skin care required",
       "goodWithKids": true,
-      "image": "/images/breeds/cats/sphynx.jpg"
+      "image": "/images/breeds/sphynx.jpg"
     },
     {
       "breed": "British Shorthair",
@@ -171,7 +171,7 @@
       "energyLevel": "Low–Medium",
       "groomingNeeds": "Low",
       "goodWithKids": true,
-      "image": "/images/breeds/cats/british_shorthair.jpg"
+      "image": "/images/breeds/british-shorthair.jpg"
     },
     {
       "breed": "Russian Blue",
@@ -181,7 +181,7 @@
       "energyLevel": "Medium",
       "groomingNeeds": "Low",
       "goodWithKids": true,
-      "image": "/images/breeds/cats/russian_blue.jpg"
+      "image": "/images/breeds/russian-blue.jpg"
     },
     {
       "breed": "American Shorthair",
@@ -191,7 +191,7 @@
       "energyLevel": "Medium",
       "groomingNeeds": "Low",
       "goodWithKids": true,
-      "image": "/images/breeds/cats/american_shorthair.jpg"
+      "image": "/images/breeds/american-shorthair.jpg"
     },
     {
       "breed": "Scottish Fold",
@@ -201,7 +201,7 @@
       "energyLevel": "Medium",
       "groomingNeeds": "Low–Moderate",
       "goodWithKids": true,
-      "image": "/images/breeds/cats/scottish_fold.jpg"
+      "image": "/images/breeds/scottish-fold.jpg"
     }
   ]
 }
